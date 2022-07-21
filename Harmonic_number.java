@@ -11,7 +11,7 @@ public class Harmonic_number {
 		float num = 0;
 		if(N != 0) {
 			for(float j=1; j<=N; j++) {
-				num += (1/j);
+				num += (1/j);       /*1+1/2+1/3+...+1/4 */
 			}
 			System.out.println("\nThe value of harmonic number of " + N + " is " + num);
 		}
